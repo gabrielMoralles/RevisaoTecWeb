@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercicio de Revisão</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="favicon" href="logo.png">
+ 
+
+</head>
+<body>
+    <h1>Exercicio de Revisão</h1>
+    <header>
+        
+        <div>>
+            <img src="logo.png" alt="" class="logoImpacta" id="logo" onclick="logo()">
+            <h2>Exercicio de Revisão</h2><br>
+        </div>
+        <nav>
+            
+            <ul class="nav-ul">
+                <li class="nav-li"><a href="">Home</a></li>
+                <li class="nav-li"> <a href="">Login</a> </li>
+                <li class="nav-li"> <a href="">Cursos</a> </li>
+
+            </ul>
+
+        </nav>
+      
+    </header>
+    <section class="secao1">
+            <div>
+                    <img src="livro.png.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+            
+                    <div>
+                            <img src="livro.png.png" alt="">
+                            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                                sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <img src="livro.png.png" alt="">
+                            <p>
+                                <p> Excepteur sint occaecat cupidatat non proident, 
+                                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p></p>
+                     </div>
+    </section>
+
+    <section class="secao2">
+
+        <ul class="ulADS">    
+                <h3>ADS</h3>
+                <li onclick="tec()">TechWeb</li>
+                <li onclick="dev()" >DevOps</li>
+                <li onclick="sql()">SQL</li>
+                <li onclick="lp()">LP2</li>
+        </ul>
+
+        <ol class="olSI">
+                <h3 >SI</h3>
+                <li onclick="tec()">TechWeb</li>
+                <li onclick="dev()" >DevOps</li>
+                <li onclick="sql()">SQL</li>
+                <li onclick="lp()">LP2</li>
+        </ol>
+
+        
+    </section>
+
+
+    <section class="secao3" >
+
+        <form action="POST" onfocusout="sql()">
+            <h4>Insira Seus Dados</h4>
+            <input type="text" placeholder="Insira seu Nome" class="inputNome" ><br>
+            <label>Cor Favorita: <input type="color" class="inputCor"></label>
+            
+            <label >Data de Nascimento:  <input type="date" class="inputData"></label>
+            
+           <label> Seu Salário:  <input type="number" class="inputSal">R$</label>
+        </form>
+    </section>
+
+    <section class="secao4">
+
+
+
+        <h4>Usuarios</h4>
+        <table >
+
+            <thead>
+                    <td>Nome</td>
+                    <td>Cor Favorita</td>
+                    <td>Data de Nascimento</td>
+                    <td>Salario</td>
+            </thead>
+                <tbody class="tabela">
+
+                    <tr>
+
+                        <td onclick="remove()" >Gabriel</td>
+                        <td>Preto</td>
+                        <td>17/05/1999</td>
+                        <td> 10000,00R$</td>
+                    </tr>
+
+                </tbody>
+
+
+           
+
+
+
+
+        </table>
+</section>
+
+<footer>
+
+        <p>Exercicio de Revisão- Gabriel Moralles - 1802112</p>
+
+</footer>
+
+        <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+html,body{
+
+
+    margin:0;
+}
+
+
+h1{
+
+    text-align: center;
+
+}
+img{
+
+    height: 40px;
+
+
+}
+
+div{
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+nav{
+
+    
+}
+.nav-ul{
+
+
+    display: flex;
+    position: relative;
+    flex-direction: row;
+
+}
+
+.nav-li{
+
+    display: block;
+    margin-left:10px; 
+
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 16px;
+
+
+
+}
+ a:hover{
+
+
+    background-color: red;
+
+}
+
+table{
+
+
+    border: 1px solid black;
+    border-collapse: collapse
+}
+
+
+table td{
+
+    border: 1px solid black;
+
+}
+header{
+
+    background-color: #2121af;
+    border-bottom: solid black 2px;
+    margin:0px;
+
+    line-height: 15%;
+
+}
+
+
+
+
+.secao1{
+    
+    margin-left: 50px;
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+
+}
+
+.secao1 img{
+
+
+    margin-right: 10px;
+
+}
+
+.secao2{
+    margin-left:45%; 
+    display: flex;
+    flex-direction: row;
+
+}
+.secao2 ul{
+    width: 10%;
+    list-style-type: none;
+    background-color: lightgrey;
+    border: solid black 1px;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 0px;
+   
+
+}
+.secao2 ol{
+    margin-left: 15px;
+    width: 10%;
+    list-style-type: none;
+    background-color: lightgrey;
+    border: solid black 1px;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 0px;
+
+}
+
+header div{
+
+
+    display: flex;
+    flex-direction: row
+
+}
+.secao3 form{
+
+    max-width: 20%;
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+.secao4 table{
+
+    margin-left: 40%;
+    text-align: center;
+
+
+}
+
+.secao4{
+
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black
+
+}
